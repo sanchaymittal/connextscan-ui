@@ -184,7 +184,6 @@ export default function Navbar() {
           type: SDK,
           value: await create({
             chains: chains_config,
-            signerAddress: address,
             logLevel: 'info',
             network: process.env.NEXT_PUBLIC_NETWORK,
             environment: process.env.NEXT_PUBLIC_ENVIRONMENT,
